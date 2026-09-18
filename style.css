@@ -36,6 +36,15 @@ nav a:hover { color: #84960f; }
 .section-content { min-width: 0; }
 .about-text { max-width: 540px; margin: 45px 0 0 auto; color: var(--muted); line-height: 1.9; }
 .about-text p + p { margin-top: 20px; }
+.why-ai { background: #e7e3f1; }
+.ai-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; }
+.ai-kicker, .projects-kicker { margin: 0 0 9px; color: #66528f; font: .7rem var(--mono); letter-spacing: .09em; }
+.ai-reasons { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 52px; }
+.ai-reasons article { min-height: 230px; padding: 19px; background: var(--paper); border: 1px solid #cbc4da; transition: transform .25s, box-shadow .25s; }
+.ai-reasons article:hover { transform: translateY(-7px); box-shadow: 7px 7px 0 #7d669d; }
+.ai-reasons span { color: #745c96; font: .75rem var(--mono); }
+.ai-reasons h3 { margin: 47px 0 10px; font-size: 1.15rem; }
+.ai-reasons p { margin: 0; color: var(--muted); font-size: .86rem; line-height: 1.8; }
 .interests { background: var(--ink); color: #edf0e8; max-width: none; padding-left: max(40px, calc((100vw - 1200px) / 2)); padding-right: max(40px, calc((100vw - 1200px) / 2)); border: 0; }
 .interest-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 65px; }
 .interest-grid article { min-height: 230px; padding: 18px 0; border-top: 1px solid #56605a; }
@@ -58,5 +67,5 @@ nav a:hover { color: #84960f; }
 .contact { max-width: 1280px; margin: 0 auto; padding: 130px 40px 35px; border-top: 1px solid var(--line); }.contact h2 { margin-top: 22px; }.contact h2 a { text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 9px; }.contact-footer { display: flex; justify-content: space-between; margin-top: 105px; color: var(--muted); font: .73rem var(--mono); }.contact-footer a { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }.contact-footer p { margin: 0; }
 
 @media (max-width: 700px) {
-  .site-header { padding: 20px 22px; } nav { gap: 13px; font-size: .7rem; }.hero { min-height: 590px; padding: 85px 22px 55px; }.hero-orbit { top: 95px; right: -34%; width: 92vw; opacity: .7; }.hero-copy { margin-top: 28px; font-size: .92rem; }.section { grid-template-columns: 1fr; gap: 25px; padding: 75px 22px; }.section-label { padding: 0; }.about-text { margin: 33px 0 0; }.interests { padding-left: 22px; padding-right: 22px; }.interest-grid { grid-template-columns: 1fr; gap: 0; margin-top: 40px; }.interest-grid article { min-height: 0; padding: 20px 0 27px; }.interest-grid h3 { margin: 22px 0 7px; }.work-heading { display: block; }.work-heading p { margin-top: 13px; }.project-grid { grid-template-columns: 1fr; gap: 32px; margin-top: 35px; }.project-featured { grid-column: auto; }.project-art, .project-featured .project-art { height: 255px; }.contact { padding: 82px 22px 27px; }.contact-footer { align-items: flex-start; flex-direction: column; gap: 15px; margin-top: 80px; }
+  .site-header { padding: 20px 22px; } .logo { font-size: 1.25rem; } nav { gap: 8px; font-size: .62rem; }.hero { min-height: 590px; padding: 85px 22px 55px; }.hero-orbit { top: 95px; right: -34%; width: 92vw; opacity: .7; }.hero-copy { margin-top: 28px; font-size: .92rem; }.section { grid-template-columns: 1fr; gap: 25px; padding: 75px 22px; }.section-label { padding: 0; }.about-text { margin: 33px 0 0; }.ai-heading { display: block; }.ai-reasons { grid-template-columns: 1fr; gap: 11px; margin-top: 32px; }.ai-reasons article { min-height: 0; padding: 18px; }.ai-reasons h3 { margin: 25px 0 7px; }.interests { padding-left: 22px; padding-right: 22px; }.interest-grid { grid-template-columns: 1fr; gap: 0; margin-top: 40px; }.interest-grid article { min-height: 0; padding: 20px 0 27px; }.interest-grid h3 { margin: 22px 0 7px; }.work-heading { display: block; }.work-heading > p { margin-top: 13px; }.project-grid { grid-template-columns: 1fr; gap: 32px; margin-top: 35px; }.project-featured { grid-column: auto; }.project-art, .project-featured .project-art { height: 255px; }.contact { padding: 82px 22px 27px; }.contact-footer { align-items: flex-start; flex-direction: column; gap: 15px; margin-top: 80px; }
 }
